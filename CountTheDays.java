@@ -15,3 +15,9 @@ class CountTheDays{
             case 9: case 11:
                 jumlahHari = 30;
                 break;
+            case 2:
+                if (tahun % 4 == 0)
+                    jumlahHari = 29;
+                else
+                    jumlahHari = 28;
+                break;
