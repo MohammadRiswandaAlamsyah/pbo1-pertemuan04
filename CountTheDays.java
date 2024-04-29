@@ -1,8 +1,8 @@
 class CountTheDays{
     public static void main(String[] args) {
 
-        int bulan = 1;
-        int tahun = 2019;
+        int bulan = 2;
+        int tahun = 2024;
         int jumlahHari = 0;
 
         switch (bulan) {
@@ -25,3 +25,6 @@ class CountTheDays{
                 System.out.println("Nilai Tersebut Bukan Bulan.");
                 break;
         }
+        System.out.println("Jumlah hari = " + jumlahHari);
+    }
+}
