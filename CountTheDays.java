@@ -6,3 +6,6 @@ class CountTheDays{
         int jumlahHari = 0;
 
         switch (bulan) {
+            case 1: case 3: case 5:
+            case 7: case 8: case 10:
+            case 12:
