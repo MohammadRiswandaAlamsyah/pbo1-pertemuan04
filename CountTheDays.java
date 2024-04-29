@@ -4,3 +4,5 @@ class CountTheDays{
         int bulan = 1;
         int tahun = 2019;
         int jumlahHari = 0;
+
+        switch (bulan) {
