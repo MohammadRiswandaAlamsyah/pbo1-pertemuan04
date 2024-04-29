@@ -11,3 +11,7 @@ class CountTheDays{
             case 12:
                 jumlahHari = 31;
                 break;
+            case 4: case 6:
+            case 9: case 11:
+                jumlahHari = 30;
+                break;
