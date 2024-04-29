@@ -21,3 +21,7 @@ class CountTheDays{
                 else
                     jumlahHari = 28;
                 break;
+            default:
+                System.out.println("Nilai Tersebut Bukan Bulan.");
+                break;
+        }
